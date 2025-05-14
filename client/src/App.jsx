@@ -1,6 +1,7 @@
 
 import Navbar from './components/Navbar'
 import Projects from './components/Projects'
+import GlowingCursor from './components/GlowingCursor'
 import './App.css'
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
 
   return (
     <div className="bg-gray-900  scroll-smooth flex h-screen overflow-hidden">
+            <GlowingCursor />
             {/* Left Navbar */}
             <Navbar />
 
