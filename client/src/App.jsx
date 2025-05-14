@@ -1,5 +1,6 @@
 
 import Navbar from './components/Navbar'
+import Projects from './components/Projects'
 import './App.css'
 
 function App() {
@@ -20,7 +21,7 @@ function App() {
                       About Me
                     </h2> */}
                     <p className="text-lg leading-relaxed mb-4">
-                      Hello! I'm <span className="font-semibold text-green-500">[Your Name]</span>, a frontend developer with a passion for crafting beautiful and intuitive user experiences. I enjoy turning complex problems into simple, elegant solutions.
+                      Hello! I'm <span className="font-semibold text-green-500">Samuel Knowles</span>, a frontend developer with a passion for crafting beautiful and intuitive user experiences. I enjoy turning complex problems into simple, elegant solutions.
                     </p>
                     <p className="text-lg leading-relaxed mb-4">
                       My journey into web development started with curiosity and grew into a full-blown obsession. These days, I specialize in building fast, accessible, and responsive web applications using technologies like 
@@ -38,11 +39,10 @@ function App() {
                 </section>
 
                     {/* Projects */}
-                <section id="projects" className="min-h-screen scroll-mt-16">
-                    <h2 className="text-2xl font-semibold mb-2">Projects</h2>
-                    <p>Here's where your projects go.</p>
-                </section>
                 
+                    <Projects />
+                
+
                 {/* Contact */}
                 <section id="contact" className="min-h-screen scroll-mt-16">
                     <h2 className="text-2xl font-semibold mb-2">Contact</h2>
