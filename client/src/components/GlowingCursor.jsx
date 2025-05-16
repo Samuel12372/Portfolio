@@ -15,11 +15,11 @@ const GlowingCursor = () => {
   return (
     <div className="pointer-events-none fixed top-0 left-0 w-full h-full z-50">
       <div
-        className="absolute bg-gray-500 rounded-full opacity-15 blur-[100px] transition-transform duration-50"
+        className="absolute bg-gray-200 rounded-full opacity-20 blur-[100px] transition-transform duration-50"
         style={{
-          width: "400px",
-          height: "400px",
-          transform: `translate(${position.x - 200}px, ${position.y - 200}px)`,
+          width: "500px",
+          height: "500px",
+          transform: `translate(${position.x - 250}px, ${position.y - 250}px)`,
         }}
       />
     </div>

@@ -21,7 +21,8 @@ const Navbar = () => {
           }
         });
       },
-      { threshold: 0.6 }
+      { threshold: 0.6
+       }
     );
 
     const sections = document.querySelectorAll('section');
@@ -36,9 +37,9 @@ const Navbar = () => {
 
       <h1 className="text-5xl font-bold mb-4">Samuel Knowles</h1>
 
-      <h2 className=" text-2xl text-gray-400 mb-8">Graduate Software Engineer</h2>
+      <h2 className=" text-2xl text-gray-400 mb-8">Software Engineer</h2>
 
-        <p className="text-gray-400 mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sed ante sollicitudin, pharetra diam a, condimentum felis. </p>
+        <p className="text-gray-400 mb-8">Software engineering student passionate about building fun and creative projects.</p>
 
       <nav className="mt-4">
         <ul className="flex flex-col space-y-3">
@@ -51,7 +52,7 @@ const Navbar = () => {
             const textShift = isActive || isHovered ? "translate-x-1" : "group-hover:translate-x-1";
 
             return (
-              <li key={item.label}>
+              <li key={item.label} className='w-50'>
                 <a
                   href={item.href}
                   onClick={(e) => {
@@ -80,7 +81,7 @@ const Navbar = () => {
       </nav>
 
       {/* footer */}
-        <footer className="bg-gray-900 text-white py-30">
+        <footer className="bg-slate-900 text-white py-30">
       <div className="flex justify-left space-x-4">
         <SocialIcon
           network="github"
@@ -92,13 +93,6 @@ const Navbar = () => {
         <SocialIcon
           network="linkedin"
           url="https://www.linkedin.com/in/sam-knowles-2788352ba/"
-          fgColor="#ffffff"
-          bgColor="transparent"
-          className="hover:scale-130 transition-transform duration-300"
-        />
-        <SocialIcon
-          network="instagram"
-          url="https://www.instagram.com/samuelknowles7/"
           fgColor="#ffffff"
           bgColor="transparent"
           className="hover:scale-130 transition-transform duration-300"
