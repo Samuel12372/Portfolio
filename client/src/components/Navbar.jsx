@@ -32,16 +32,20 @@ const Navbar = () => {
   }, []);
 
   return (
-  <section className="w-2/5 h-screen flex flex-col justify-center items-start px-6 text-white sticky top-0">
-    <div className="flex flex-col self-start mt-25  ml-45">
+  <section className="w-full md:w-2/5 md:h-screen flex flex-col justify-center items-start px-6 text-white md:sticky md:top-0">
 
+    <div className="flex flex-col items-center justify-center w-full text-left mt-20">
+
+
+      <div className="max-w-sm mx-auto text-left" >
       <h1 className="text-5xl font-bold mb-4">Samuel Knowles</h1>
-
       <h2 className=" text-2xl text-gray-400 mb-8">Software Engineer</h2>
 
         <p className="text-gray-400 mb-8">Software engineering student passionate about building fun and creative projects.</p>
+      </div>
 
-      <nav className="mt-4">
+      <nav className="mt-4 ">
+        
         <ul className="flex flex-col space-y-3">
           {navbarItems.map((item) => {
             const isHovered = hoveredItem === item.href;
