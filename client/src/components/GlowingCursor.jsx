@@ -13,7 +13,7 @@ const GlowingCursor = () => {
   }, []);
 
   return (
-    <div className="pointer-events-none fixed top-0 left-0 w-full h-full z-50">
+    <div className="pointer-events-none fixed top-0 left-0 w-full h-full z-50 hidden lg:block">
       <div
         className="absolute bg-gray-200 rounded-full opacity-20 blur-[100px] transition-transform duration-50"
         style={{
