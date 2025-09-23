@@ -36,7 +36,7 @@ const GlowingCursor = () => {
           width: "500px",
           height: "500px",
           left: "50%",
-          top: "50%",
+          top: "65%",
           transform: "translate(-50%, -50%)",
         }}
       />
