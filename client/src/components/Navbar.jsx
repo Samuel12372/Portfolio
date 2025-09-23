@@ -32,7 +32,7 @@ const Navbar = () => {
   }, []);
 
   return (
-  <section className="w-full md:w-2/5 md:h-screen flex flex-col justify-center items-start px-6 text-white md:sticky md:top-0">
+  <section className="w-full xl:w-2/5 xl:h-screen flex flex-col justify-center items-start px-6 text-white xl:sticky xl:top-0">
 
     <div className="flex flex-col items-center justify-center w-full text-left mt-20">
 
@@ -41,7 +41,7 @@ const Navbar = () => {
       <h1 className="text-5xl font-bold mb-4">Samuel Knowles</h1>
       <h2 className=" text-2xl text-gray-400 mb-8">Software Engineer</h2>
 
-        <p className="text-gray-400 mb-8">Software engineering student passionate about building fun and creative projects.</p>
+        <p className="text-gray-400 mb-8">A First Class Honours Software Engineer passionate about building fun and creative projects.</p>
       </div>
 
       <nav className="mt-4 ">

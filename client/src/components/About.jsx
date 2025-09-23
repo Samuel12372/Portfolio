@@ -6,12 +6,13 @@ const About = () => {
         <div className="max-w-xl mx-auto">
 
           <p className="text-lg leading-relaxed mb-4">
-            Hello! I'm <span className="font-semibold text-white">Samuel Knowles</span>, a final year software engineering student at Sheffield Hallam University with a passion for software development. With graduation approaching, I'm looking for an innovative and exciting role in software engineering where I can continue to grow and develop my skillset.
+            Hello! I'm <span className="font-semibold text-white">Samuel Knowles</span>, A First Class Honours Graduate Software Engineer from Sheffield Hallam University with a passion for software development. I'm currently looking for an innovative and exciting role in software engineering where I can continue to grow and develop my skillset.
           </p>
 
           <p className="text-lg leading-relaxed mb-4">
             My journey into programming began with <span className="text-white font-semibold">C#</span> and <span className="text-white font-semibold">JavaScript</span>, but quickly expanded across a wide range of languages, frameworks, and libraries. Some of these include:
-            <span className="text-white font-semibold"> React</span>, 
+            <span className="text-white font-semibold"> React</span>,
+            <span className="text-white font-semibold"> TypeScript</span>, 
             <span className="text-white font-semibold"> Node</span>, 
             <span className="text-white font-semibold"> HTML</span>, 
             <span className="text-white font-semibold"> CSS</span>, 

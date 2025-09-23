@@ -1,4 +1,7 @@
+// ...existing code...
 const Projects = () => {
+
+  
   return (
     <section
       id="projects"
@@ -8,10 +11,10 @@ const Projects = () => {
 
         {/* CodeClash */}
         <div className="flex bg-slate-900 hover:bg-gray-800 hover:shadow-lg transition-all duration-300 p-6 rounded-lg gap-6 items-start">
-          <img
+         <img
             src="../../public/CodeClash.png"
             alt="CodeClash Website"
-            className="w-40 object-contain rounded-md"
+            className="w-40 object-contain rounded-md hidden lg:block"
           />
           <div className="flex flex-col justify-between w-full">
             <div>
@@ -57,7 +60,7 @@ const Projects = () => {
           <img
             src="../../public/3Squared.png"
             alt="3Squared Train Tracker"
-            className="w-40 object-contain rounded-md"
+            className="w-40 object-contain rounded-md hidden lg:block"
           />
           <div className="flex flex-col justify-between w-full">
             <div>
@@ -142,7 +145,7 @@ const Projects = () => {
 
         {/* Depths of the Dungeon */}
         <div className="flex bg-slate-900 hover:bg-gray-800 hover:shadow-lg transition-all duration-300 p-6 rounded-lg gap-6 items-start">
-          <img src="../../public/DepthsOfDungeon.png" alt="Depths of the Dungeon" className="w-40 object-contain rounded-md" />
+          <img src="../../public/DepthsOfDungeon.png" alt="Depths of the Dungeon" className="w-40 object-contain rounded-md hidden lg:block" />
           <div className="flex flex-col justify-between w-full">
             <div>
               <h3 className="text-2xl font-semibold  text-white mb-2">Depths of the Dungeon</h3>
@@ -181,7 +184,7 @@ const Projects = () => {
           <img
             src="../../public/AML.png"
             alt="Library Management System"
-            className="w-40 object-contain rounded-md"
+            className="w-40 object-contain rounded-md hidden lg:block"
           />
           <div className="flex flex-col justify-between w-full">
             <div>
@@ -252,3 +255,4 @@ const Projects = () => {
 };
 
 export default Projects;
+// ...existing code...

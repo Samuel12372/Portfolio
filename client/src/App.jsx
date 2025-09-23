@@ -7,11 +7,12 @@ import './App.css'
 
 function App() {
   return (
-    <div className="bg-slate-900 scroll-smooth flex flex-col md:flex-row h-full min-h-screen">
+    
+    <div className="bg-slate-900  scroll-smooth flex flex-col xl:flex-row h-full min-h-screen">
       {/* Glowing Background Cursor */}
       <GlowingCursor />
 
-      {/* Left Navbar (Only on medium screens and up) */}
+      {/* Left Navbar*/}
       
         <Navbar />
       
@@ -23,6 +24,7 @@ function App() {
         <Contact />
       </div>
     </div>
+  
   )
 }
 
