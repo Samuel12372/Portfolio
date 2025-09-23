@@ -16,7 +16,7 @@ const Projects = () => {
             alt="CodeClash Website"
             className="w-40 object-contain rounded-md hidden lg:block"
           />
-          <div className="flex flex-col justify-between w-full">
+          <div className="flex flex-col justify-between w-full text-center lg:text-left">
             <div>
               <h3 className="text-2xl font-semibold  text-white mb-2">CodeClash</h3>
               <p className="text-gray-400 mb-4">
@@ -48,7 +48,7 @@ const Projects = () => {
               </p>
 
             </div>
-            <div className="flex gap-3">
+            <div className="flex gap-3 justify-center lg:justify-start">
               <a href="https://quiz-project-frontend-dyul.onrender.com/" target="_blank" rel="noopener noreferrer" className="px-3 py-1 text-sm font-medium text-white bg-gray-700 rounded hover:bg-gray-600 transition">Web</a>
               <a href="https://github.com/Samuel12372/Quiz-Project/tree/dev" target="_blank" rel="noopener noreferrer" className="px-3 py-1 text-sm font-medium text-white bg-gray-700 rounded hover:bg-gray-600 transition">Code</a>
             </div>
@@ -62,7 +62,7 @@ const Projects = () => {
             alt="3Squared Train Tracker"
             className="w-40 object-contain rounded-md hidden lg:block"
           />
-          <div className="flex flex-col justify-between w-full">
+          <div className="flex flex-col justify-between w-full text-center lg:text-left">
             <div>
               <h3 className="text-2xl font-semibold text-white mb-2">3Squared Train Tracker</h3>
               <p className="text-gray-400 mb-4">
@@ -121,7 +121,7 @@ const Projects = () => {
                 </a>.
               </p>
             </div>
-            <div className="flex gap-3">
+            <div className="flex gap-3 justify-center lg:justify-start">
               <a
                 href="https://youtu.be/-uEVk5DCFc4"
                 target="_blank"
@@ -146,7 +146,7 @@ const Projects = () => {
         {/* Depths of the Dungeon */}
         <div className="flex bg-slate-900 hover:bg-gray-800 hover:shadow-lg transition-all duration-300 p-6 rounded-lg gap-6 items-start">
           <img src="../../public/DepthsOfDungeon.png" alt="Depths of the Dungeon" className="w-40 object-contain rounded-md hidden lg:block" />
-          <div className="flex flex-col justify-between w-full">
+          <div className="flex flex-col justify-between w-full text-center lg:text-left">
             <div>
               <h3 className="text-2xl font-semibold  text-white mb-2">Depths of the Dungeon</h3>
               <p className="text-gray-400 mb-4">
@@ -171,7 +171,7 @@ const Projects = () => {
                 I designed levels for the game in the unity engine, used sprites found online and coded scripts to add functionality and create a working game. 
               </p>
             </div>
-            <div className="flex gap-3">
+            <div className="flex gap-3 justify-center lg:justify-start">
               <a href="https://youtu.be/rnY3MqSu-Tw" target="_blank" rel="noopener noreferrer" className="px-3 py-1 text-sm font-medium text-white bg-gray-700 rounded hover:bg-gray-600 transition">Demo</a>
               <a href="https://github.com/Samuel12372/DungeonCrawler" target="_blank" rel="noopener noreferrer" className="px-3 py-1 text-sm font-medium text-white bg-gray-700 rounded hover:bg-gray-600 transition">Code</a>
             </div>
@@ -186,7 +186,7 @@ const Projects = () => {
             alt="Library Management System"
             className="w-40 object-contain rounded-md hidden lg:block"
           />
-          <div className="flex flex-col justify-between w-full">
+          <div className="flex flex-col justify-between w-full text-center lg:text-left">
             <div>
               <h3 className="text-2xl font-semibold text-white mb-2">Library Management System</h3>
               <p className="text-gray-400 mb-4">
@@ -226,7 +226,7 @@ const Projects = () => {
                 </a>.
               </p>
             </div>
-            <div className="flex gap-3">
+            <div className="flex gap-3 justify-center lg:justify-start">
               <a
                 href="https://youtu.be/PjJ8NoVuHs0"
                 target="_blank"

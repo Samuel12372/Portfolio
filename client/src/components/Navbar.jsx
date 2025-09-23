@@ -34,10 +34,10 @@ const Navbar = () => {
   return (
   <section className="w-full xl:w-2/5 xl:h-screen flex flex-col justify-center items-start px-6 text-white xl:sticky xl:top-0">
 
-    <div className="flex flex-col items-center justify-center w-full text-left mt-20">
+    <div className="flex flex-col items-center justify-center w-full text-center xl:text-left mt-20">
 
 
-      <div className="max-w-sm mx-auto text-left" >
+      <div className="max-w-sm mx-auto text-center xl:text-left" >
       <h1 className="text-5xl font-bold mb-4">Samuel Knowles</h1>
       <h2 className=" text-2xl text-gray-400 mb-8">Software Engineer</h2>
 
