@@ -8,13 +8,46 @@ const Projects = () => {
       className="min-h-screen scroll-mt-1 px-6 md:px-16 pt-10 text-white"
     >
       <div className="max-w-4xl mx-auto space-y-5">
+        {/* properJob */}
+        <div className="flex flex-col lg:flex-row bg-slate-900 hover:bg-gray-800 hover:shadow-lg transition-all duration-300 p-6 rounded-lg gap-6 items-start">
+         <img
+            src="/properjob.png"
+            alt="proper job website"
+            className="w-full max-w-sm lg:max-w-[10rem] object-contain rounded-md mx-auto lg:mx-0"
+          />
+          <div className="flex flex-col justify-between w-full text-center lg:text-left">
+            <div>
+              <h3 className="text-2xl font-semibold  text-white mb-2">ProperJob</h3>
+              <p className="text-gray-400 mb-4">
+                I am currently working on a web-based application that will actively support the next generation of property professionals onwards in their careers through a direct and digital networking process, whilst providing small-medium sized property companies with a cost-effective and data-driven solution to hiring. Built with{' '}
+                <a href="https://www.typescriptlang.org/" target="_blank" rel="noopener noreferrer" className="text-white font-semibold hover:text-gray-500">
+                  TypeScript
+                </a>,{' '}
+                <a href="https://nextjs.org/" target="_blank" rel="noopener noreferrer" className="text-white font-semibold hover:text-gray-500">
+                  Next.js
+                </a>,{' '}
+                <a href="https://www.postgresql.org/" target="_blank" rel="noopener noreferrer" className="text-white font-semibold hover:text-gray-500">
+                  PostgreSQL
+                </a>, and{' '}
+                <a href="https://supabase.com/" target="_blank" rel="noopener noreferrer" className="text-white font-semibold hover:text-gray-500">
+                  Supabase
+                </a>.
+              </p>
+
+            </div>
+            <div className="flex gap-3 justify-center lg:justify-start">
+              <a href="https://properjob.io/" target="_blank" rel="noopener noreferrer" className="px-3 py-1 text-sm font-medium text-white bg-gray-700 rounded hover:bg-gray-600 transition">Web</a>
+              <a href="https://www.linkedin.com/company/properjob-io/" target="_blank" rel="noopener noreferrer" className="px-3 py-1 text-sm font-medium text-white bg-gray-700 rounded hover:bg-gray-600 transition">LinkedIn</a>
+            </div>
+          </div>
+        </div>
 
         {/* CodeClash */}
-        <div className="flex bg-slate-900 hover:bg-gray-800 hover:shadow-lg transition-all duration-300 p-6 rounded-lg gap-6 items-start">
+        <div className="flex flex-col lg:flex-row bg-slate-900 hover:bg-gray-800 hover:shadow-lg transition-all duration-300 p-6 rounded-lg gap-6 items-start">
          <img
-            src="../../public/CodeClash.png"
+            src="/CodeClash.png"
             alt="CodeClash Website"
-            className="w-40 object-contain rounded-md hidden lg:block"
+            className="w-full max-w-sm lg:max-w-[10rem] object-contain rounded-md mx-auto lg:mx-0"
           />
           <div className="flex flex-col justify-between w-full text-center lg:text-left">
             <div>
@@ -55,12 +88,13 @@ const Projects = () => {
           </div>
         </div>
 
+
         {/* 3Squared Train Tracker */}
-        <div className="flex bg-slate-900 hover:bg-gray-800 hover:shadow-lg transition-all duration-300 p-6 rounded-lg gap-6 items-start">
+        <div className="flex flex-col lg:flex-row bg-slate-900 hover:bg-gray-800 hover:shadow-lg transition-all duration-300 p-6 rounded-lg gap-6 items-start">
           <img
-            src="../../public/3Squared.png"
+            src="/3Squared.png"
             alt="3Squared Train Tracker"
-            className="w-40 object-contain rounded-md hidden lg:block"
+            className="w-full max-w-sm lg:max-w-[10rem] object-contain rounded-md mx-auto lg:mx-0"
           />
           <div className="flex flex-col justify-between w-full text-center lg:text-left">
             <div>
@@ -144,8 +178,8 @@ const Projects = () => {
 
 
         {/* Depths of the Dungeon */}
-        <div className="flex bg-slate-900 hover:bg-gray-800 hover:shadow-lg transition-all duration-300 p-6 rounded-lg gap-6 items-start">
-          <img src="../../public/DepthsOfDungeon.png" alt="Depths of the Dungeon" className="w-40 object-contain rounded-md hidden lg:block" />
+        <div className="flex flex-col lg:flex-row bg-slate-900 hover:bg-gray-800 hover:shadow-lg transition-all duration-300 p-6 rounded-lg gap-6 items-start">
+          <img src="/DepthsOfDungeon.png" alt="Depths of the Dungeon" className="w-full max-w-sm lg:max-w-[10rem] object-contain rounded-md mx-auto lg:mx-0" />
           <div className="flex flex-col justify-between w-full text-center lg:text-left">
             <div>
               <h3 className="text-2xl font-semibold  text-white mb-2">Depths of the Dungeon</h3>
@@ -180,11 +214,11 @@ const Projects = () => {
 
         
         {/* Library Management System */}
-        <div className="flex bg-slate-900 hover:bg-gray-800 hover:shadow-lg transition-all duration-300 p-6 rounded-lg gap-6 items-start">
+        <div className="flex flex-col lg:flex-row bg-slate-900 hover:bg-gray-800 hover:shadow-lg transition-all duration-300 p-6 rounded-lg gap-6 items-start">
           <img
-            src="../../public/AML.png"
+            src="/AML.png"
             alt="Library Management System"
-            className="w-40 object-contain rounded-md hidden lg:block"
+            className="w-full max-w-sm lg:max-w-[10rem] object-contain rounded-md mx-auto lg:mx-0"
           />
           <div className="flex flex-col justify-between w-full text-center lg:text-left">
             <div>
