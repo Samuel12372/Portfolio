@@ -8,7 +8,7 @@ import './App.css'
 function App() {
   return (
     
-    <div className="bg-slate-900  scroll-smooth flex flex-col xl:flex-row h-full min-h-screen">
+    <div className="bg-slate-900  scroll-smooth flex flex-col xl:flex-row h-full min-h-dvh">
       {/* Glowing Background Cursor */}
       <GlowingCursor />
 
