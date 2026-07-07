@@ -2,11 +2,11 @@ const About = () => {
   return (
     <div>
       {/* About Section */}
-      <section id="about" className="min-h-screen scroll-mt-16 px-6 md:px-16 py-20 md:py-50 text-gray-400 text-center xl:text-left">
+      <section id="about" className="min-h-dvh scroll-mt-16 px-6 md:px-16 py-20 md:py-50 text-gray-400 text-center xl:text-left">
         <div className="max-w-xl mx-auto">
 
           <p className="text-lg leading-relaxed mb-4">
-            Hello! I'm <span className="font-semibold text-white">Samuel Knowles</span>,A First Class Honours Software Engineer from Sheffield Hallam University.
+            Hello! I'm <span className="font-semibold text-white">Samuel Knowles</span>, A First Class Honours Software Engineer from Sheffield Hallam University.
           </p>
 
           <p className="text-lg leading-relaxed mb-4">
