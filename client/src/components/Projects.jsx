@@ -13,6 +13,8 @@ const Projects = () => {
          <img
             src="/properjob.png"
             alt="proper job website"
+          loading="lazy"
+          decoding="async"
             className="w-full max-w-sm lg:max-w-[10rem] object-contain rounded-md mx-auto lg:mx-0"
           />
           <div className="flex flex-col justify-between w-full text-center lg:text-left">
@@ -47,6 +49,8 @@ const Projects = () => {
          <img
             src="/CodeClash.png"
             alt="CodeClash Website"
+          loading="lazy"
+          decoding="async"
             className="w-full max-w-sm lg:max-w-[10rem] object-contain rounded-md mx-auto lg:mx-0"
           />
           <div className="flex flex-col justify-between w-full text-center lg:text-left">
@@ -94,6 +98,8 @@ const Projects = () => {
           <img
             src="/3Squared.png"
             alt="3Squared Train Tracker"
+            loading="lazy"
+            decoding="async"
             className="w-full max-w-sm lg:max-w-[10rem] object-contain rounded-md mx-auto lg:mx-0"
           />
           <div className="flex flex-col justify-between w-full text-center lg:text-left">
@@ -179,7 +185,7 @@ const Projects = () => {
 
         {/* Depths of the Dungeon */}
         <div className="flex flex-col lg:flex-row bg-slate-900 hover:bg-gray-800 hover:shadow-lg transition-all duration-300 p-6 rounded-lg gap-6 items-start">
-          <img src="/DepthsOfDungeon.png" alt="Depths of the Dungeon" className="w-full max-w-sm lg:max-w-[10rem] object-contain rounded-md mx-auto lg:mx-0" />
+          <img src="/DepthsOfDungeon.png" alt="Depths of the Dungeon" loading="lazy" decoding="async" className="w-full max-w-sm lg:max-w-[10rem] object-contain rounded-md mx-auto lg:mx-0" />
           <div className="flex flex-col justify-between w-full text-center lg:text-left">
             <div>
               <h3 className="text-2xl font-semibold  text-white mb-2">Depths of the Dungeon</h3>
@@ -218,6 +224,8 @@ const Projects = () => {
           <img
             src="/AML.png"
             alt="Library Management System"
+            loading="lazy"
+            decoding="async"
             className="w-full max-w-sm lg:max-w-[10rem] object-contain rounded-md mx-auto lg:mx-0"
           />
           <div className="flex flex-col justify-between w-full text-center lg:text-left">
